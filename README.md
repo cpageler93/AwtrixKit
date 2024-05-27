@@ -39,6 +39,13 @@ let client = AwtrixClient(address: "192.168.178.91")!
 try await client.updateApp(name: "app1", request: .init(text: "Hello World"))
 ```
 
+## Requirements
+
+- Swift 5.0 or higher
+- A Ulanzi TC001 pixel clock
+- Network connection to the Ulanzi TC001
+- **AWTRIX3** custom firmware installed on the Ulanzi TC001. You can find more information and installation instructions [here](https://blueforcer.github.io/awtrix3).
+
 ## Contributions
 
 Contributions are welcome! Please fork this repository and open a pull request with your changes. Be sure to follow the existing guidelines and the code of conduct.
