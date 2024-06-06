@@ -6,6 +6,7 @@
 //
 
 import Foundation
+#if canImport(UIKit)
 import UIKit
 
 internal extension UIColor {
@@ -22,3 +23,4 @@ internal extension UIColor {
         )
      }
 }
+#endif
